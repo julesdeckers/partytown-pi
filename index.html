@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <script src="/~partytown/partytown.js"></script>
     <div id="app"></div>
+    <form class="form" name="" >
+        Number of Digits:<br>
+        <input type="text" name="t1" id="t1" value="100" size="25" maxlength="25">
+        <br>Add Count:
+        <input type="checkbox" name="cbCount" id="cbCount" value="" checked="checked">
+        <br>Add Spaces:
+        <input type="checkbox" name="cbSpace" id="cbSpace" value="" checked="checked">
+        <br>
+        <input class="button" type="button" value="Calculate Pi">
+    </form>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <div id="d1"></div>
     <script type="module" src="/main.js"></script>
-  </body>
+    <script type="text/partytown" src="/pi.js"></script>
+</body>
+
 </html>

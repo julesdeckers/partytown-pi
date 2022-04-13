@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "@builder.io/partytown": "^0.5.2"
   }
 }
